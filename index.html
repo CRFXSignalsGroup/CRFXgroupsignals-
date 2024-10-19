@@ -9,32 +9,33 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #f5af19, #f12711);
-            color: #333;
+            background-color: #121212;
+            color: #f0f0f0;
             text-align: center;
         }
         header {
-            background: rgba(255, 255, 255, 0.9);
+            background-color: #1c1c1c;
             padding: 40px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
-            margin: 20px;
+            border-bottom: 5px solid #ffd700;
         }
         h1 {
             font-size: 2.8em;
             margin-bottom: 10px;
-            color: #f12711;
+            color: #40e0d0;
         }
         p {
             font-size: 1.2em;
+            color: #f0f0f0;
         }
         .info-box {
-            background: #fff;
+            background: #1c1c1c;
             border-radius: 10px;
             padding: 30px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
             margin: 20px;
             transition: transform 0.3s;
+            border: 2px solid #40e0d0;
         }
         .info-box:hover {
             transform: scale(1.05);
@@ -42,6 +43,7 @@
         .step {
             font-size: 1.5em;
             margin: 20px 0;
+            color: #ffd700;
         }
         .emoji {
             font-size: 2em;
@@ -50,15 +52,15 @@
             display: inline-block;
             margin-top: 20px;
             padding: 15px 25px;
-            background: #0088cc;
-            color: white;
+            background: #40e0d0;
+            color: #121212;
             text-decoration: none;
             border-radius: 10px;
             font-size: 1.2em;
             transition: background 0.3s;
         }
         .telegram-link:hover {
-            background: #006699;
+            background: #32c8b4;
         }
         .features {
             display: flex;
@@ -67,28 +69,36 @@
         }
         .feature-item {
             width: 250px;
-            background: #fff;
+            background: #1c1c1c;
             border-radius: 10px;
             padding: 20px;
             margin: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             text-align: center;
+            border: 2px solid #ffd700;
         }
         footer {
             padding: 30px;
-            background: rgba(255, 255, 255, 0.8);
-            margin-top: 30px;
-            font-size: 1em;
+            background-color: #1c1c1c;
+            border-top: 5px solid #40e0d0;
             color: #777;
+            margin-top: 30px;
         }
         img {
             max-width: 100%;
+            border-radius: 10px;
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
             border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <header>
+        <img src="logo.png" alt="لوگو" class="logo">
         <h1>👑 به کانال VIP ما خوش آمدید! 👑</h1>
         <p>سیگنال‌های برتر فارکس منتظر شما هستند. آماده‌اید؟</p>
     </header>
@@ -97,10 +107,31 @@
         <h2>چگونه عضو شوید؟</h2>
         <div class="step"><span class="emoji">1️⃣</span> یک حساب در <strong>بروکر Opo Finance</strong> ایجاد کنید.</div>
         <div class="step"><span class="emoji">2️⃣</span> مبلغ مورد نظر را به حساب واریز کنید.</div>
-        <div class="step"><span class="emoji">3️⃣</span> کلاینت آیدی خود را به <a href="https://t.me/cRFxfamily">لینک تلگرام</a> ارسال کنید.</div>
+        <div class="step"><span class="emoji">3️⃣</span> کلاینت آیدی خود را به <a href="https://t.me/cRFxfamily" style="color: #ffd700;">لینک تلگرام</a> ارسال کنید.</div>
         <div class="step"><span class="emoji">🎉</span> پس از تایید، به کانال VIP ما ملحق خواهید شد.</div>
         <a href="https://t.me/cRFxfamily" class="telegram-link">عضویت در تلگرام</a>
     </div>
 
     <div class="features">
-        <div class="feature-item
+        <div class="feature-item">
+            <img src="https://via.placeholder.com/250" alt="بروکر">
+            <h3 style="color: #40e0d0;">پشتیبانی ۲۴/۷</h3>
+            <p>تیم پشتیبانی ما همیشه آماده پاسخگویی به شماست.</p>
+        </div>
+        <div class="feature-item">
+            <img src="https://via.placeholder.com/250" alt="فارکس">
+            <h3 style="color: #ffd700;">سیگنال‌های دقیق</h3>
+            <p>بهترین سیگنال‌های معاملاتی برای سود بیشتر.</p>
+        </div>
+        <div class="feature-item">
+            <img src="https://via.placeholder.com/250" alt="امنیت">
+            <h3 style="color: #40e0d0;">امنیت بالا</h3>
+            <p>اطلاعات شما در بروکر Opo Finance محفوظ است.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 تمامی حقوق محفوظ است. وب‌سایت اختصاصی شما برای عضویت در کانال VIP.</p>
+    </footer>
+</body>
+</html>
