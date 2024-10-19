@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRFX Group - وب‌سایت سیگنال‌های ترید فارکس</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* پس‌زمینه روشن */
+            color: #333; /* متن تیره */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF; /* رنگ آبی */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            width: 150px; /* عرض لوگو */
+            margin: 20px 0;
+        }
+        .working-hours, .broker-logo {
+            background-color: #fff; /* پس‌زمینه سفید */
+            margin: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #FFD700; /* رنگ طلایی */
+            font-size: 36px; /* اندازه بزرگ برای عنوان */
+            margin: 0;
+        }
+        h2 {
+            color: #007BFF; /* رنگ عنوان */
+        }
+        p {
+            font-size: 18px; /* اندازه متن */
+        }
+        .trade-emoji {
+            font-size: 24px; /* اندازه ایموجی */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CRFX Group <span class="trade-emoji">📈</span></h1>
+        <p>به وب‌سایت سیگنال‌های ترید فارکس خوش آمدید</p>
+    </header>
+
+    <div class="working-hours">
+        <h2>ساعت کاری</h2>
+        <p>ساعت کاری: 13:45 تا 17:45 و 21:00 تا 22:00 به وقت آلمان</p>
+    </div>
+
+    <div class="broker-logo">
+        <h2>بروکر OPO Finance</h2>
+        <img src="opo_finance_logo.png" alt="لوگوی بروکر OPO Finance" class="logo">
+    </div>
+</body>
+</html>
